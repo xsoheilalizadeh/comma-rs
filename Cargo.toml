@@ -1,0 +1,9 @@
+[package]
+name = "comma-rs"
+version = "0.1.0"
+authors = ["xsoheilalizadeh <xsoheilalizadeh@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+clipboard = "0.5.0"

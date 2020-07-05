@@ -14,7 +14,7 @@ fn main() {
     for line in lines {
         lines_count = lines_count + 1;
 
-        let mut item = String::from(line.unwrap());
+        let mut item = String::from(format!("'{}'",line.unwrap()));
 
         item.push_str(",\r\n");
 
